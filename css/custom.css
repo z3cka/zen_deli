@@ -1,0 +1,44 @@
+.page-node-1 .form-text {
+  width: 200px;
+}
+
+.page-node-1 #webform-component-patient .description {
+  padding-left: 60px; 
+}
+
+.page-node-1 #edit-submitted-phone-number {
+  width: 100px;
+}
+
+.page-node-1 #edit-next {
+  clear: right;
+  float: right;
+}
+.page-node-1 #edit-previous {
+  clear: left;
+  float: left;
+}
+.page-node-1 .form-submit {
+/*  float: right; */
+/*  clear: left; */
+}
+
+
+#webform-component-group-1 {
+ float: none;
+  
+}
+
+.page-node-1 .form-item {
+    float: left;
+    height: 3em;
+    margin-bottom: 1em;
+    margin-top: 2px;
+    width: 33%;
+}
+
+.page-node-1 .form-item label {
+    float: left;
+    font-size: 0.929em;
+    padding-right: 10px;
+}
