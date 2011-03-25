@@ -10,7 +10,11 @@
   width: 100px;
 }
 
-.page-node-1 #edit-next {
+
+.webform-button-wrapper {
+  clear: left;
+}
+.page-node-1 #edit-next, .page-node-1 #edit-submit{
   clear: right;
   float: right;
 }
@@ -25,8 +29,10 @@
 
 
 #webform-component-group-1 {
- float: none;
-  
+  float: none;
+  font-size: 2em;
+  height: 0em;
+  padding-bottom: 0.5em;
 }
 
 .page-node-1 .form-item {
