@@ -1,50 +1,84 @@
+#content .section {
+    background: none repeat scroll 0 0 white;
+    padding: 1em;
+    border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+}
+
+body {
+    background: none repeat scroll 0 0 #98B865;
+}
+
+#webform-client-form-1 {
+  background: url(../images/930frame.png);
+}
+
+.page-node-1 #logo {
+  border-radius: 15px 15px 0 0;
+  -moz-border-radius: 15px 15px 0 0;
+  padding-top: 0;
+  vertical-align: top;
+  background-image: url("http://surveys.sey.cm/sites/surveys.sey.cm/files/Banner_survey_0.png");
+  height: 171px;
+  width: 960px;
+}
+.page-node-1 select {
+    float: right;
+    margin-right: 25px;
+}
+
 .page-node-1 .form-text {
   width: 200px;
 }
 
 .page-node-1 #webform-component-patient .description {
-  padding-left: 60px; 
+/*  padding-left: 60px; */
 }
 
 .page-node-1 #edit-submitted-phone-number {
-  width: 100px;
+/*  width: 100px; */
 }
-
-
+.page-node-1 .captcha {
+  float: left;
+  margin-top: 3em;
+}
+.page-node-1 .form-item.form-item-captcha-response {
+  width: 100%;
+}
 .webform-button-wrapper {
   clear: left;
+  background: white;
 }
 .page-node-1 #edit-next, .page-node-1 #edit-submit{
-  clear: right;
+  clear: both;
   float: right;
 }
 .page-node-1 #edit-previous {
   clear: left;
-  float: left;
-}
-.page-node-1 .form-submit {
-/*  float: right; */
-/*  clear: left; */
 }
 
+.form-seperator {
+  background: url(../images/930frame.png);
+}
 
 #webform-component-group-1, #webform-component-group-2 {
-  float: none;
-  font-size: 2em;
-  height: 0em;
+    background: url("../images/applespacerbottom.jpg") no-repeat scroll 0 0 transparent;
+    float: none;
+    font-size: 2em;
+    height: 1em;
+    padding-top: 0.5em;
+    width: 100%;
   padding-bottom: 0.5em;
 }
-
 .page-node-1 .form-item {
-    float: left;
-    height: 3em;
-    margin-bottom: 1em;
-    margin-top: 2px;
-    width: 33%;
+  float: left;
+/*  height: 3em; */
+  width: 33%;
+  margin: 0em;
 }
-
 .page-node-1 .form-item label {
     float: left;
     font-size: 0.929em;
     padding-right: 10px;
+    width: 220px;
 }
