@@ -10,21 +10,21 @@ body {
 }
 
 #webform-client-form-1 {
-  background: url(../images/930frame.png);
+/*  background: url(../images/930frame.png);*/
 }
 
 .page-node-1 #logo {
   border-radius: 15px 15px 0 0;
   -moz-border-radius: 15px 15px 0 0;
-  padding-top: 0;
+  margin-top: 10px;
   vertical-align: top;
-  background-image: url("http://surveys.sey.cm/sites/surveys.sey.cm/files/Banner_survey_0.png");
-  height: 171px;
+  background-image: url("http://surveys.sey.cm/sites/surveys.sey.cm/files/survey_header_v1.png");
+  height: 96px;
   width: 960px;
 }
 .page-node-1 select {
-    float: right;
-    margin-right: 25px;
+/*    float: right;
+    margin-right: 25px;*/
 }
 
 .page-node-1 .form-text {
@@ -58,7 +58,7 @@ body {
 }
 
 .form-seperator {
-  background: url(../images/930frame.png);
+/*  background: url(../images/930frame.png); */
 }
 
 #webform-component-group-1, #webform-component-group-2 {
@@ -71,9 +71,9 @@ body {
   padding-bottom: 0.5em;
 }
 .page-node-1 .form-item {
-  float: left;
-/*  height: 3em; */
-  width: 33%;
+/*  float: left; */
+  height: 3em; 
+/*  width: 33%; */
   margin: 0em;
 }
 .page-node-1 .form-item label {
