@@ -62,17 +62,19 @@ body {
 }
 
 #webform-component-group-1, #webform-component-group-2 {
-    background: url("../images/applespacerbottom.jpg") no-repeat scroll 0 0 transparent;
-    float: none;
-    font-size: 2em;
-    height: 1em;
-    padding-top: 0.5em;
-    width: 100%;
+    background-image: url("../images/applespacerbottom.jpg");
+    background-position: -30px 50%;
+    background-repeat: no-repeat;
+  float: none;
+  font-size: 2em;
+  height: 1em;
+  padding-top: 0.5em;
+  width: 930px;
   padding-bottom: 0.5em;
 }
 .page-node-1 .form-item {
 /*  float: left; */
-  height: 3em; 
+/*  height: 3em; */
 /*  width: 33%; */
   margin: 0em;
 }
@@ -81,4 +83,18 @@ body {
     font-size: 0.929em;
     padding-right: 10px;
     width: 220px;
+}
+
+.page-node-1 .form-item:first-child {
+    padding-top: 56px;
+}
+
+.page-node-1 .form-item:last-child {
+/*    display: none; */
+}
+
+.page-node-1 .form-item, .page-node-1 .form-actions {
+    margin-bottom: 0;
+    margin-top: 0;
+  padding-bottom: 1em;
 }
