@@ -84,11 +84,14 @@ body {
     padding-right: 10px;
     width: 220px;
 }
-
+/*
 .page-node-1 .form-item:first-child {
     padding-top: 56px;
 }
-
+*/
+.page-node-1 .pad-column-tops {
+    padding-top: 56px;
+}
 .page-node-1 .form-item:last-child {
 /*    display: none; */
 }

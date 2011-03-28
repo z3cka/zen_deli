@@ -1,6 +1,8 @@
-jQuery(document).ready(function(){
-  //jQuery("p").mouseover(function(){
-  //jQuery(this).css("color", "yellow");
-  //});
-  jQuery('.form-seperator').columnize({width:320});
+(function ($) {
+$(document).ready(function(){
+  if ($('.webform-button-wrapper input:nth-child(2)').attr('value') >= '2' ) {
+    $('.form-seperator').columnize({width:320});
+	$('.page-node-1 .form-item:first-child').addClass('pad-column-tops');
+  };
 });
+})(jQuery);
