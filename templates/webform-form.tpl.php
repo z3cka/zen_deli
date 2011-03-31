@@ -1,4 +1,5 @@
 <?php
+dsm($form);
 
 /**
  * @file
@@ -26,9 +27,50 @@
 
   // Print out the main part of the form.
   // Feel free to break this up and move the pieces within the array.
+  /*echo '<div class="form-seperator">';
+    print drupal_render($form['submitted']);
+  echo '</div>';*/
+  
+  echo '<div class="custom-form">';
+    switch ($form['details']['page_num']['#value']) {
+      case '2':
+        echo "<h1>Group One</h1>";
+        break;
+      case '3':
+        echo "<h1>Group Two</h1>";
+        break;      
+      case '4':
+        echo "<h1>Group Three</h1>";
+        break;
+      case '5':
+        echo "<h1>Group Four</h1>";
+        break;
+      case '6':
+        echo "<h1>Group Five</h1>";
+        break;
+      case '7':
+        echo "<h1>Group Six</h1>";
+        break;
+      case '8':
+        echo "<h1>Group Seven</h1>";
+        break;
+      case '9':
+        echo "<h1>Group Eight</h1>";
+        break;
+      case '10':
+        echo "<h1>Group Nine</h1>";
+        break;
+
+      default:
+        // No Header on first page of form
+        break;
+    }
+  echo '</div>';
+
   echo '<div class="form-seperator">';
     print drupal_render($form['submitted']);
   echo '</div>';
+
   // Always print out the entire $form. This renders the remaining pieces of the
   // form that haven't yet been rendered above.
     echo '<div class="webform-button-wrapper">';

@@ -76,6 +76,11 @@
     <?php if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><!--<img src="<?php //print $logo; ?>" alt="<?php print t(''); ?>" />--></a>
     <?php endif; ?>
+    <div class="node-title">
+      <?php if ($title): ?>
+        <h1 class="title" id="page-title"><?php print $title; ?></h1>
+      <?php endif; ?>
+    </div>
 
     <?php if ($site_name || $site_slogan): ?>
       <div id="name-and-slogan">
@@ -121,9 +126,10 @@
       <?php print $breadcrumb; ?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
-      <?php if ($title): ?>
-        <h1 class="title" id="page-title"><?php print $title; ?></h1>
-      <?php endif; ?>
+ <!--     <?php //if ($title): ?>
+        <h1 class="title" id="page-title"><?php //print $title; ?></h1>
+      <?php //endif; ?>
+      -->
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
       <?php if ($tabs = render($tabs)): ?>
