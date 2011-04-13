@@ -5,20 +5,15 @@
     -moz-border-radius: 0px 0px 15px 15px;
 }
 
-body {
-    background: none repeat scroll 0 0 #98B865;
-}
-
 .node-title h1 {
   position: absolute;
   margin-top: 65px;
   margin-left: 100px;
 }
 
-#webform-client-form-1 {
-/*  background: url(../images/930frame.png);*/
+body {
+    background: none repeat scroll 0 0 #98B865;
 }
-
 .page-node-1 #logo {
   border-radius: 15px 15px 0 0;
   -moz-border-radius: 15px 15px 0 0;
@@ -28,9 +23,22 @@ body {
   height: 96px;
   width: 960px;
 }
+
+.arrange-fields-container .draggable-form-item {
+  width: 900px;
+}
+
+/*
+
+
+#webform-client-form-1 {
+[>  background: url(../images/930frame.png);<]
+}
+
+
 .page-node-1 select {
-/*    float: right;
-    margin-right: 25px;*/
+[>    float: right;
+    margin-right: 25px;<]
 }
 
 .page-node-1 .form-text {
@@ -38,11 +46,11 @@ body {
 }
 
 .page-node-1 #webform-component-patient .description {
-/*  padding-left: 60px; */
+[>  padding-left: 60px; <]
 }
 
 .page-node-1 #edit-submitted-phone-number {
-/*  width: 100px; */
+[>  width: 100px; <]
 }
 .page-node-1 .captcha {
   float: left;
@@ -64,11 +72,11 @@ body {
 }
 
 .form-seperator {
-/*  background: url(../images/930frame.png); */
+[>  background: url(../images/930frame.png); <]
 }
 
 #webform-component-group-1, #webform-component-group-2 {
-  /*background-image: url("../images/applespacerbottom.jpg");
+  [>background-image: url("../images/applespacerbottom.jpg");
   background-position: -30px 50%;
   background-repeat: no-repeat;
   float: none;
@@ -76,19 +84,19 @@ body {
   height: 1em;
   padding-top: 0.5em;
   width: 930px;
-  padding-bottom: 0.5em;*/
+  padding-bottom: 0.5em;<]
 }
 .page-node-1 .form-item {
-/*  float: left; */
-/*  height: 3em; */
-/*  width: 33%; */
+[>  float: left; <]
+[>  height: 3em; <]
+[>  width: 33%; <]
   margin: 0em;
 }
 .page-node-1 .form-item label {
-    /*float: left;
+    [>float: left;
     font-size: 0.929em;
     padding-right: 10px;
-    width: 220px;*/
+    width: 220px;<]
   float: left;
   font-size: 0.929em;
   margin-left: 27px;
@@ -96,20 +104,20 @@ body {
   text-indent: -27px;
   width: 200px;
 }
-/*
+[>
 .page-node-1 .form-item:first-child {
     padding-top: 56px;
 }
-*/
+<]
 .page-node-1 .pad-column-tops {
-    /*padding-top: 56px;*/
+    [>padding-top: 56px;<]
 }
 .page-node-1 .form-item:last-child {
-/*    display: none; */
+[>    display: none; <]
 }
 
 .page-node-1 .form-item, .page-node-1 .form-actions {
     margin-bottom: 0;
     margin-top: 0;
   padding-bottom: 1em;
-}
+}*/
