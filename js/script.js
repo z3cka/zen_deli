@@ -150,5 +150,97 @@
     $('.captcha.form-wrapper').fadeIn('slow');
     $('#edit-submit').fadeIn('slow');
   }
+  // Let's wrap our fancy buttons
+  $('.fancy-next-button, fancy-back-button').wrap('<div class="fancy-buttons">');
+
+  // Let's make columns
+  // About You
+  // Tag stuff in columns
+  $('#webform-component-about-you .fieldset-wrapper .form-item:lt(3)').addClass('column-1-wrapped');
+  $('#webform-component-about-you .fieldset-wrapper .form-item:gt(2)').addClass('column-2-wrapped');
+  // Wrap About You columns
+  $('#webform-component-about-you .column-1-wrapped').wrapAll('<div class="column-1" />');
+  $('#webform-component-about-you .column-2-wrapped').wrapAll('<div class="column-2" />');
+
+  // Group 1
+  // Tag stuff in columns
+  $('#webform-component-group-1 .fieldset-wrapper .form-item:lt(10)').addClass('column-1-wrapped');
+  $('#webform-component-group-1 .fieldset-wrapper .form-item:gt(9)').addClass('column-2-wrapped');
+  // Wrap Group 1 columns
+  $('#webform-component-group-1 .column-1-wrapped').wrapAll('<div class="column-1" />');
+  $('#webform-component-group-1 .column-2-wrapped').wrapAll('<div class="column-2" />');
+
+  // Group 2
+  // Tag stuff in columns  
+  $('#webform-component-group-2 .fieldset-wrapper .form-item:lt(10)').addClass('column-1-wrapped');
+  $('#webform-component-group-2 .fieldset-wrapper .form-item:gt(9)').addClass('column-2-wrapped');
+  // Wrap Group 2 columns
+  $('#webform-component-group-2 .column-1-wrapped').wrapAll('<div class="column-1" />');
+  $('#webform-component-group-2 .column-2-wrapped').wrapAll('<div class="column-2" />');
+  
+  // Group 3
+  // Tag stuff in columns  
+  $('#webform-component-group-3 .fieldset-wrapper .form-item:lt(7)').addClass('column-1-wrapped');
+  $('#webform-component-group-3 .fieldset-wrapper .form-item:gt(6)').addClass('column-2-wrapped');
+  // Wrap Group 3 columns
+  $('#webform-component-group-3 .column-1-wrapped').wrapAll('<div class="column-1" />');
+  $('#webform-component-group-3 .column-2-wrapped').wrapAll('<div class="column-2" />');
+
+  // Group 4
+  // Tag stuff in columns  
+  $('#webform-component-group-4 .fieldset-wrapper .form-item:lt(9)').addClass('column-1-wrapped');
+  $('#webform-component-group-4 .fieldset-wrapper .form-item:gt(8)').addClass('column-2-wrapped');
+  // Wrap Group 4 columns
+  $('#webform-component-group-4 .column-1-wrapped').wrapAll('<div class="column-1" />');
+  $('#webform-component-group-4 .column-2-wrapped').wrapAll('<div class="column-2" />');
+
+  // Group 5
+  // Tag stuff in columns  
+  $('#webform-component-group-5 .fieldset-wrapper .form-item:lt(13)').addClass('column-1-wrapped');
+  $('#webform-component-group-5 .fieldset-wrapper .form-item:gt(12)').addClass('column-2-wrapped');
+  // Wrap Group 5 columns
+  $('#webform-component-group-5 .column-1-wrapped').wrapAll('<div class="column-1" />');
+  $('#webform-component-group-5 .column-2-wrapped').wrapAll('<div class="column-2" />');
+
+  // Group 6
+  // Tag stuff in columns  
+  $('#webform-component-group-6 .fieldset-wrapper .form-item:lt(5)').addClass('column-1-wrapped');
+  $('#webform-component-group-6 .fieldset-wrapper .form-item:gt(4)').addClass('column-2-wrapped');
+  // Wrap Group 6
+  $('#webform-component-group-6 .column-1-wrapped').wrapAll('<div class="column-1" />');
+  $('#webform-component-group-6 .column-2-wrapped').wrapAll('<div class="column-2" />');
+
+  // Group 7
+  // Tag stuff in columns  
+  $('#webform-component-group-7 .fieldset-wrapper .form-item:lt(38)').addClass('column-1-wrapped');
+  $('#webform-component-group-7 .fieldset-wrapper .form-item:gt(37)').addClass('column-2-wrapped');
+  // Wrap Group 7
+  $('#webform-component-group-7 .column-1-wrapped').wrapAll('<div class="column-1" />');
+  $('#webform-component-group-7 .column-2-wrapped').wrapAll('<div class="column-2" />');
+
+  // Group 8
+  // Tag stuff in columns  
+  $('#webform-component-group-8 .fieldset-wrapper .form-item:lt(14)').addClass('column-1-wrapped');
+  $('#webform-component-group-8 .fieldset-wrapper .form-item:gt(13)').addClass('column-2-wrapped');
+  // Wrap Group 8
+  $('#webform-component-group-8 .column-1-wrapped').wrapAll('<div class="column-1" />');
+  $('#webform-component-group-8 .column-2-wrapped').wrapAll('<div class="column-2" />');
+  
+  // Female Only
+  // Tag stuff in columns  
+  $('#webform-component-female-only .fieldset-wrapper .form-item:lt(7)').addClass('column-1-wrapped');
+  $('#webform-component-female-only .fieldset-wrapper .form-item:gt(6)').addClass('column-2-wrapped');
+  // Wrap Female only columns
+  $('#webform-component-female-only .column-1-wrapped').wrapAll('<div class="column-1" />');
+  $('#webform-component-female-only .column-2-wrapped').wrapAll('<div class="column-2" />');
+  
+  // male Only
+  // Tag stuff in columns  
+  $('#webform-component-male-only .fieldset-wrapper .form-item:lt(6)').addClass('column-1-wrapped');
+  $('#webform-component-male-only .fieldset-wrapper .form-item:gt(5)').addClass('column-2-wrapped');
+  // Wrap male only columns
+  $('#webform-component-male-only .column-1-wrapped').wrapAll('<div class="column-1" />');
+  $('#webform-component-male-only .column-2-wrapped').wrapAll('<div class="column-2" />');
+  
   });
 })(jQuery);
