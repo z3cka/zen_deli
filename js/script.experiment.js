@@ -1,7 +1,15 @@
 (function ($) {
   $(document).ready(function(){
-    // Add Next Page and Back buttons
-    var arrayGroupValues = new Array('about-you', 'group-1', 'group-2', 'group-3', 'group-4', 'group-5', 'group-6', 'group-7', 'group-8', 'female-only', 'male-only', 'important');
+    // Add Next Page buttons
+    // Construct Object
+    function buttonInfo( group, classname, buttontext ) {  
+      this.group = group;  
+      this.classname = classname;  
+      this.buttontext = buttontext;  
+    } 
+    var arrayGroupValues = new Array(); 
+    arrayGroupValues[0] = new buttonInfo('about-you', 'about-you', 'Next Page');
+     'group-1', 'group-2', 'group-3', 'group-4', 'group-5', 'group-6', 'group-7', 'group-8', 'female-only', 'male-only');
     var next = { 
       classname: 'next', 
       buttontext: 'Next Page'
@@ -16,8 +24,22 @@
         $('#webform-component-' + objGroupValue).append('<button type="button" class="fancy-' + objButtonValue.classname + '-button ' + objGroupValue + '">' + objButtonValue.buttontext + '</button>');
       });
     });
-    $('.fancy-back-button.about-you').hide();
-    $('.fancy-next-button.important').hide();
+
+    // Add Previous Page buttons
+    /*$.each(arrayValues, function( intIndex, objValue ) {
+      $('#webform-component-' + objValue).append('<button type="button" class="fancy-next-button ' + objValue + '">Next Page</button>');
+    });*/
+    /*$('#webform-component-group-1').append('<button type="button" class="fancy-back-button group-1">Back</button>');
+    $('#webform-component-group-2').append('<button type="button" class="fancy-back-button group-2">Back</button>');
+    $('#webform-component-group-3').append('<button type="button" class="fancy-back-button group-3">Back</button>');
+    $('#webform-component-group-4').append('<button type="button" class="fancy-back-button group-4">Back</button>');
+    $('#webform-component-group-5').append('<button type="button" class="fancy-back-button group-5">Back</button>');
+    $('#webform-component-group-6').append('<button type="button" class="fancy-back-button group-6">Back</button>');
+    $('#webform-component-group-7').append('<button type="button" class="fancy-back-button group-7">Back</button>');
+    $('#webform-component-group-8').append('<button type="button" class="fancy-back-button group-8">Back</button>');
+    $('#webform-component-female-only').append('<button type="button" class="fancy-back-button female-only">Back</button>');
+    $('#webform-component-male-only').append('<button type="button" class="fancy-back-button male-only">Back</button>');
+    $('#webform-component-important').append('<button type="button" class="fancy-back-button important">Back</button>');*/
 
     // Make buttons work
 //about-you
