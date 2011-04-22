@@ -235,6 +235,12 @@
   // Wrap male only columns
   $('#webform-component-male-only .column-1-wrapped').wrapAll('<div class="column-1" />');
   $('#webform-component-male-only .column-2-wrapped').wrapAll('<div class="column-2" />');
-  
+
+  // Check for required fields forgotton
+  if ($('input').hasClass('error')) {
+    $('.captcha.form-wrapper').fadeIn('slow');
+    $('#edit-submit').fadeIn('slow');
+  }
+
   });
 })(jQuery);
