@@ -121,3 +121,15 @@ body {
     margin-top: 0;
   padding-bottom: 1em;
 }*/
+
+/*Fancy Form stuff*/
+
+.fancy-next-button {
+  float: right;
+}
+/*Hide sets*/
+#webform-component-group-1, #webform-component-group-2, #webform-component-group-3, #webform-component-group-4, #webform-component-group-5, #webform-component-group-6, #webform-component-group-7, #webform-component-group-8, #webform-component-female-only, #webform-component-male-only, #webform-component-important, .page-node-1 #edit-submit,
+.page-node-1 .captcha.form-wrapper {
+  display: none;
+}
+
